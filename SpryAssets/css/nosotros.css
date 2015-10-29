@@ -1,0 +1,140 @@
+table{
+  border-collapse: collapse;
+}
+
+ul.MenuBarHorizontal a{
+	color : #fff;
+	font-size:16px;
+	background-color: #90785A;
+	font-weight: normal
+}
+ul.MenuBarHorizontal a:hover{
+	color:#fff;
+	background-color: #90785A;
+}
+
+table {
+	width: 1178px;
+	height: 806px;
+}
+
+#contenedor{
+    border: 0 none;
+    height: 170px;
+    margin-top: -200px;
+    width: 100%;
+    position: relative;
+}
+
+.txt{
+	width: 260px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #FFF;
+	font-style: normal;
+	text-align: justify;
+	background-color: #90785a;
+} 
+
+#frase1, #frase2, #frase3, #frase4, #frase5, #frase6, #frase7{
+	width: auto;
+	height:auto;
+}
+#frase1{
+	left: -90px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-style: italic;
+	color: #2E2E2E;
+	position: relative;	
+	animation: animafrase1 9s;
+	-moz-animation: animafrase1 9s;
+	-o-animation: animafrase1 9s;
+	-webkit-animation: animafrase1 9s;
+}
+
+#frase2{
+	left: -50px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 23px;
+	font-style: italic;
+	color: #FFF;
+	font-weight: bold;
+	position: relative;
+	animation: animafrase2 8s;
+	-moz-animation: animafrase2 8s;
+	-o-animation: animafrase2 8s;
+	-webkit-animation: animafrase2 8s;
+	
+}
+
+#frase3{
+	top: 40px;
+	padding-left:30px;
+	left: -65px;
+	font-family: "Baskerville old face", Times, serif;
+	font-size: 26px;
+	color: #2E2E2E;
+	position: relative;
+	animation: animafrase3 8s;
+	-moz-animation: animafrase3 8s;
+	-o-animation: animafrase3 8s;
+	-webkit-animation: animafrase3 8s;
+ 
+}
+
+/*--- Animacion 1 ---*/
+@keyframes animafrase1{
+	from {left:0px; opacity: 0;  z-index: -1}
+	to{left:-90px;  z-index: 1 }
+}
+
+@-o-keyframes animafrase1{
+	from {left:0px; opacity: 0; z-index: -1}
+	to{left:-90px; z-index: 1 }
+}
+@-webkit-keyframes animafrase1{
+	from {left:0px; opacity: 0; z-index: -1 }
+	to{left:-90px; z-index: -1}
+}
+
+@-moz-keyframes animafrase1{
+	from {left:-500px; opacity: 0; z-index: -1}
+	to{left:-90px; z-index: 1}
+}
+
+/*--- Animacion 2 ---*/
+@keyframes animafrase2{
+	from {left:-800px; opacity: 0; z-index: -1}
+	to{left:-50px; z-index: 1 }	
+}
+@-moz-keyframes animafrase2{
+	from {left:-800px; opacity: 0; z-index: -1}
+	to{left:-50px; z-index: 1 }	
+}
+@-o-keyframes animafrase2{
+	from {left:-800px; opacity: 0; z-index: -1}
+	to{left:-50px; z-index: 1}	
+}
+@-webkit-keyframes animafrase2{
+	from {left:-800px; opacity: 0; z-index: -1}
+	to{left:-50px; z-index: 1}	
+}
+
+/*--- Animacion 3 ---*/
+@keyframes animafrase3{
+	from {left:-500px; opacity: 0; z-index: -1}
+	to{left:-65px; z-index: 1}	
+}
+@-moz-keyframes animafrase3{
+	from {left:-500px; opacity: 0; z-index: -1}
+	to{left:-65px; z-index: 1}	
+}
+@-o-keyframes animafrase3{
+	from {left:-500px; opacity: 0; z-index: -1}
+	to{left:-65px; z-index: 1 }	
+}
+@-webkit-keyframes animafrase3{
+	from {left:-500px; opacity: 0; z-index: -1}
+	to{left:-65px; z-index: 1}	
+}

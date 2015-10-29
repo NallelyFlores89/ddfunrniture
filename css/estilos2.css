@@ -1,0 +1,170 @@
+body {
+	background-image: url("../images/fondo-negro.jpg");
+	background-size: 100%;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.mail {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	font-weight: bold;
+}
+.mail:link {
+	text-decoration: none;
+}
+.mail:visited {
+	text-decoration: none;
+	color: #000;
+}
+.mail:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+.mail:active {
+	text-decoration: none;
+	color: #FFF;
+}
+
+#contenedor{
+	margin-top: 370px;
+	height: 170px;
+	border: 0;
+	width: 100%;
+
+}
+
+#sillon{
+	z-index: 1;
+}
+#frase1, #frase2, #frase3{
+	width: auto;
+	height: auto;
+}
+#frase1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-style: italic;
+	color: #2E2E2E;
+	position: relative;
+	padding-right: 50px;	
+	animation: animafrase1 8s;
+	-moz-animation: animafrase1 8s;
+	-o-animation: animafrase1 8s;
+	-webkit-animation: animafrase1 8s;
+}
+
+#frase2{
+	padding-right: 100px;	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 23px;
+	font-style: italic;
+	color: #FFF;
+	font-weight: bold;
+	position: relative;
+	animation: animafrase2 7s;
+	-moz-animation: animafrase2 7s;
+	-o-animation: animafrase2 7s;
+	-webkit-animation: animafrase2 7s;
+	
+}
+
+#frase3{
+	top: 40px;
+	padding-right: 60px;	
+	font-family: "Baskerville old face", Times, serif;
+	font-size: 26px;
+	color: #2E2E2E;
+	position: relative;
+	animation: animafrase3 8s;
+	-moz-animation: animafrase3 8s;
+	-o-animation: animafrase3 8s;
+	-webkit-animation: animafrase3 8s;
+}
+
+footer{
+	color: #fff;
+    padding-top: 15px;
+    font-size: 12px;
+}
+
+footer a{
+    text-decoration: none; 
+    color: #FFF;
+}
+
+footer p{
+    text-align: right;
+    margin-right: 120px;
+    line-height: 2px;
+}
+
+/*--- Animacion 1 ---*/
+@keyframes animafrase1{
+	0% {left:-600px; opacity: 0; }
+	90%{opacity: 1;}
+	100%{left:0px;}	
+}
+
+@-o-keyframes animafrase1{
+	0% {left:-600px; opacity: 0; }
+	90%{opacity: 1;}
+	100%{left:0px;}	
+}
+@-webkit-keyframes animafrase1{
+	0% {left:-600px; opacity: 0; }
+	90%{opacity: 1;}
+	100%{left:0px;}		
+}
+@-moz-keyframes animafrase1{
+	0% {left:-600px; opacity: 0; }
+	90%{opacity: 1;}
+	100%{left:0px;}	
+}
+
+/*--- Animacion 2 ---*/
+@keyframes animafrase2{
+	0% {left:-600px; opacity: 0;  }
+	35%{opacity: 0;}
+	100%{left:0px;}	
+}
+@-moz-keyframes animafrase2{
+	0% {left:-600px; opacity: 0;  }
+	45%{opacity: 0;}
+	100%{left:0px;}		
+}
+@-o-keyframes animafrase2{
+	0% {left:-600px; opacity: 0;  }
+	30%{opacity: 0;}
+	100%{left:0px;}	
+}
+@-webkit-keyframes animafrase2{
+	0% {left:-600px; opacity: 0;  }
+	30%{opacity: 0;}
+	100%{left:0px;}			
+}
+
+/*--- Animacion 3 ---*/
+@keyframes animafrase3{
+	0% {left:-600px; opacity: 0; }
+	20%{opacity: 0;}
+	100%{left:0px;}	
+}
+@-moz-keyframes animafrase3{
+	0% {left:-600px; opacity: 0; }
+	30%{opacity: 0;}
+	100%{left:0px;}		
+}
+@-o-keyframes animafrase3{
+	0% {left:-600px; opacity: 0;  }
+	20%{opacity: 0;}
+	100%{left:0px;}	
+}
+@-webkit-keyframes animafrase3{
+	0% {left:-600px; opacity: 0;  }
+	20%{opacity: 0;}
+	100%{left:0px;}	
+}
+

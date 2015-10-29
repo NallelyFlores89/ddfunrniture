@@ -1,0 +1,144 @@
+#contenedor{
+	top:-400px;
+}
+#frase4, #frase5 {
+	color: #A4A4A4;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#frase4{
+	font-size: 17px;
+	top: -154px;
+	padding-left: 650px;
+	font-style: italic;
+	position: relative;
+	animation: animafrase4 8s;
+	-moz-animation: animafrase4 8s;
+	-o-animation: animafrase4 8s;
+	-webkit-animation: animafrase4 8s;
+}
+#frase5{
+	font-size: 33px;
+	top: -155px;
+	padding-left: 350px;
+	font-style: italic;
+	position: relative;
+	animation: animafrase5 8s;
+	-moz-animation: animafrase5 8s;
+	-o-animation: animafrase5 8s;
+	-webkit-animation: animafrase5 8s;
+	font-weight: bold;
+}
+
+#frase6{
+	color: #fff;
+	font-family: 'Baskerville old face';	
+	font-size: 25px;
+	top: -120px;
+	padding-left: 700px;
+	position: relative;
+	animation: animafrase6 8s;
+	-moz-animation: animafrase6 8s;
+	-o-animation: animafrase6 8s;
+	-webkit-animation: animafrase6 8s;
+}
+
+
+#logo_contacto{
+  margin-top:40px;
+  padding:5px;
+}
+
+#form_contacto{ margin-top:10px;}
+
+#form_contacto{
+  width:80%;
+  background:#2E2E2E;
+  padding:15px 0px;
+}
+
+#form_contacto > .scontacto{
+  width:100% !important;
+  margin-bottom: 5px;
+}
+
+#form_contacto > .scontacto > span {
+  float:left;
+  margin-right: 10px;
+  margin-left: 25px;
+  width:10px;
+  color:#fff;
+  font-family: 'Arial';
+}
+input[type='text'], input[type='email'], textarea{
+	background-color: #6E6E6E;
+	border: none;
+	margin:0;
+	color:#fff;
+}
+
+input[type='text'], input[type='email']{
+	height: 30px;
+}
+#form_contacto > .scontacto > input[type="submit"]{
+  margin-top:20px;
+}
+
+#form_contacto > .scontacto > input[type="text"], #form_contacto > .scontacto > input[type="email"],#form_contacto > .scontacto > textarea {
+  width: 80%;
+}
+/*--- Animacion 4 ---*/
+
+@keyframes animafrase4{
+	from {left:-500px; opacity: 0}
+	to{left:0px; }	
+}
+@-moz-keyframes animafrase3{
+	from {left:-500px; opacity: 0}
+	to{left:0px; }	
+}
+@-o-keyframes animafrase3{
+	from {left:-500px; opacity: 0}
+	to{left:0px; }	
+}
+@-webkit-keyframes animafrase3{
+	from {left:-500px; opacity: 0}
+	to{left:0px; }	
+}
+
+/*--- Animacion 5 ---*/
+
+@keyframes animafrase5{
+	from {left:-550px; opacity: 0}
+	to{left:0px; }	
+}
+@-moz-keyframes animafrase5{
+	from {left:-550px; opacity: 0}
+	to{left:0px; }	
+}
+@-o-keyframes animafrase5{
+	from {left:-550px; opacity: 0}
+	to{left:0px; }	
+}
+@-webkit-keyframes animafrase5{
+	from {left:-550px; opacity: 0}
+	to{left:0px; }	
+}
+
+/*--- Animacion 6 ---*/
+
+@keyframes animafrase6{
+	from {left:-500px; opacity: 0}
+	to{left:0px; }	
+}
+@-moz-keyframes animafrase6{
+	from {left:-500px; opacity: 0}
+	to{left:0px; }	
+}
+@-o-keyframes animafrase6{
+	from {left:-500px; opacity: 0}
+	to{left:0px; }	
+}
+@-webkit-keyframes animafrase6{
+	from {left:-500px; opacity: 0}
+	to{left:0px; }	
+}

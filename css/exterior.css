@@ -1,0 +1,48 @@
+table{
+	border-collapse: collapse;
+}
+tr, td, img {
+	margin: 0; padding: 0; border: 0;
+} 
+
+#muroIzq{
+	height:580px;
+	vertical-align: 0;
+    width: 385px;
+}
+
+#seccionCarrusel{
+	height:auto;
+	vertical-align: top;
+	background-color: #fff;
+    width: 793px;
+    position: absolute;
+}
+#muroIzq img{
+	width:385px;
+	height:610px;
+	position: absolute;
+    z-index: 1;
+}
+#cabecera{
+	margin-bottom: -2px;
+	background:#eee;
+}
+#cabecera img{
+	margin:0;
+	width:100%;
+	margin-bottom: -2px;
+}
+
+#seMueve{
+	background-color: #a4c2d1;
+	height: 170px;
+	vertical-align: middle;
+}
+
+#creditos{
+	height:70px;
+	margin-top:-10px;
+
+}
+
